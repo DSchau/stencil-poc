@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dustin Schau <dustin.schau@objectpartners.com> (https://dustinschau.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@stencil/webpack": "~0.0.6",
+    "html-webpack-plugin": "~3.1.0",
+    "webpack": "~4.2.0",
+    "webpack-cli": "~2.0.13",
+    "webpack-dev-server": "~3.1.1"
+  }
+}
